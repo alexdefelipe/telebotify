@@ -1,5 +1,5 @@
-from models.jsonable import Jsonable
-from models.user import User
+from telebotify.models.jsonable import Jsonable
+from telebotify.models.user import User
 
 
 class Message(Jsonable):

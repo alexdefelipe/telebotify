@@ -1,4 +1,4 @@
-from models.jsonable import Jsonable
+from telebotify.models.jsonable import Jsonable
 
 
 class User(Jsonable):

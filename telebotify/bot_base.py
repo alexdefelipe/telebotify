@@ -1,7 +1,7 @@
 from typing import Dict, Callable
 
-from models.user import User
-from services import translation_service, HttpClient
+from telebotify.models.user import User
+from telebotify.services import translation_service, HttpClient
 
 
 class Bot:

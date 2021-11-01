@@ -2,8 +2,8 @@ from typing import Dict, Any
 
 import requests as requests
 
-from models import Body
-from utils import ModelMapper
+from telebotify.models import Body
+from telebotify.utils import ModelMapper
 
 
 class HttpClient:

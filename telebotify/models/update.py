@@ -1,5 +1,5 @@
-from models.jsonable import Jsonable
-from models.message import Message
+from telebotify.models.jsonable import Jsonable
+from telebotify.models.message import Message
 
 
 class Update(Jsonable):
