@@ -1,3 +1,4 @@
+from telebotify.models.chat import Chat
 from telebotify.models.jsonable import Jsonable
 from telebotify.models.user import User
 
