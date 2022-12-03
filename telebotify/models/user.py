@@ -29,7 +29,7 @@ class User(Jsonable):
         is_bot = json_dict["is_bot"]
         first_name = json_dict["first_name"]
         last_name = dict.get(json_dict, "last_name")
-        username = json_dict["username"]
+        username = dict.get(json_dict, "username")
         language_code = dict.get(json_dict, "language_code")
         can_join_groups = dict.get(json_dict, "can_join_groups")
         can_read_all_group_messages = dict.get(json_dict, "can_read_all_group_messages")

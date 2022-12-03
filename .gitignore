@@ -3,4 +3,5 @@ build
 telebotify.egg-info
 dist
 venv
-.env
+*.env
+*.bat
